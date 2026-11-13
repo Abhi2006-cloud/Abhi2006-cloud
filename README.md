@@ -77,13 +77,7 @@ ESP32 sensor nodes → edge gateway → FastAPI. Anomaly detection and risk scor
 
 ### 1️⃣ [FastAPI-Tenant — Multi-Tenant AI Workspace SaaS](https://github.com/Abhi2006-cloud/FastAPI-Tenant)
 
-> One backend, many organizations, with data isolation built in from the start.
-
-- **Tenant-aware request handling** with organization-scoped data access.
-- **JWT authentication and role-based access control** for organization membership.
-- **Modular services** for organizations, invitations, file management, audit logs and background jobs.
-- **Async data layer** using SQLAlchemy with PostgreSQL, plus Redis-backed infrastructure.
-- **React + TypeScript dashboard**, with Docker and GitHub Actions workflows.
+A multi-tenant SaaS backend where every organization's data stays isolated. Users sign in with JWT, get roles like owner, admin or member, invite teammates by email, upload files, and leave an audit trail. Background workers handle email and search indexing, and a React dashboard sits on top. Tests and CI were part of it from the start.
 
 **Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Redis · React · TypeScript · Docker
 
@@ -91,13 +85,7 @@ ESP32 sensor nodes → edge gateway → FastAPI. Anomaly detection and risk scor
 
 ### 2️⃣ [Document Copilot — AI Financial Research Assistant](https://github.com/Abhi2006-cloud/document-copilot)
 
-> Ask questions about 10-K filings and get answers you can verify.
-
-- **Hybrid retrieval:** dense vector search combined with PostgreSQL full-text search using Reciprocal Rank Fusion (RRF).
-- **Agent workflow** built with PydanticAI to answer questions over indexed filings.
-- **Real-time streaming** of agent progress and answer events to the UI via Server-Sent Events.
-- **Citation validation:** answer citations are checked against retrieved passages and linked to filing evidence.
-- **Secure data layer** on Supabase PostgreSQL with pgvector and Row-Level Security.
+Ask a question about a company's SEC 10-K filing and get an answer with citations you can check against the source. It combines vector and keyword search, streams the agent's steps live, and refuses to answer when the evidence isn't in the filings. Deployed and live.
 
 <a href="https://feisty-vitality-production-0f8b.up.railway.app/"><img src="https://img.shields.io/badge/▶%20Try%20the%20Live%20Demo-0F766E?style=for-the-badge&logo=railway&logoColor=white" alt="Live demo" /></a>
 <a href="https://github.com/Abhi2006-cloud/document-copilot"><img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source" /></a>
@@ -108,13 +96,7 @@ ESP32 sensor nodes → edge gateway → FastAPI. Anomaly detection and risk scor
 
 ### 3️⃣ [Terra Sense — Mine Subsidence Monitoring & Early Warning](https://github.com/Abhi2006-cloud/sih-backend)
 
-> Built for Smart India Hackathon. Hardware readings in, risk alerts out.
-
-- **End-to-end IoT pipeline:** ESP32/NodeMCU sensor nodes and an edge gateway feeding a FastAPI backend.
-- **Telemetry processing** of tilt and vibration data, with derived features for anomaly and risk analysis.
-- **Layered ML:** Isolation Forest for anomaly detection, Gradient Boosting for risk scoring, and deterministic fallback rules.
-- **Live alerts** over WebSockets, with GIS-based risk visualization in a React dashboard.
-- **Honest demo design:** physical-hardware readings are kept separate from simulated telemetry in the dashboard.
+A mine-subsidence early-warning system built for the Smart India Hackathon. ESP32 sensors measure tilt and vibration, a FastAPI backend scores the risk with machine learning, and a live dashboard shows alerts on a map. The dashboard clearly labels real hardware readings versus simulated ones.
 
 **Stack:** Python · FastAPI · scikit-learn · ESP32 · C++ · React · TypeScript · WebSockets · Leaflet · PostgreSQL · Redis
 
@@ -147,15 +129,6 @@ ESP32 sensor nodes → edge gateway → FastAPI. Anomaly detection and risk scor
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Arduino](https://img.shields.io/badge/ESP32%20%2F%20Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-
----
-
-## 📊 GitHub Activity
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Abhi2006-cloud&show_icons=true&hide_border=true&include_all_commits=true&bg_color=FFFFFF&title_color=0F766E&text_color=334155&icon_color=0F766E" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi2006-cloud&layout=compact&langs_count=8&hide_border=true&bg_color=FFFFFF&title_color=0F766E&text_color=334155" alt="Top languages" />
-</div>
 
 ---
 
