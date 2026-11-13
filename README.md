@@ -8,7 +8,8 @@
 
 <a href="https://www.linkedin.com/in/abhi-suryawanshi-531b3a324/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:workforabhi1314@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://feisty-vitality-production-0f8b.up.railway.app/"><img src="https://img.shields.io/badge/Live%20Demo-Document%20Copilot-0F766E?style=for-the-badge&logo=railway&logoColor=white" alt="Live demo" /></a>
+<a href="https://fast-api-tenant-qdmncqrbh-justas2.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-FastAPI--Tenant-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="FastAPI-Tenant live demo" /></a>
+<a href="https://feisty-vitality-production-0f8b.up.railway.app/"><img src="https://img.shields.io/badge/Live%20Demo-Document%20Copilot-0F766E?style=for-the-badge&logo=railway&logoColor=white" alt="Document Copilot live demo" /></a>
 
 </div>
 
@@ -37,13 +38,13 @@ I build backend systems that are **secure, tenant-aware and production-shaped**,
 <td width="33%" valign="top">
 
 ### 🏢 FastAPI-Tenant
-**Multi-tenant AI Workspace SaaS backend**
+**Multi-tenant AI Workspace SaaS backend** · 🟢 *Live*
 
 Organization-scoped access, JWT + RBAC, invitations, file management, audit logs and background jobs.
 
 `FastAPI` `PostgreSQL` `SQLAlchemy` `Redis` `Docker`
 
-[**View repo →**](https://github.com/Abhi2006-cloud/FastAPI-Tenant)
+[**Live demo →**](https://fast-api-tenant-qdmncqrbh-justas2.vercel.app) · [**Code →**](https://github.com/Abhi2006-cloud/FastAPI-Tenant)
 
 </td>
 <td width="33%" valign="top">
@@ -77,7 +78,10 @@ ESP32 sensor nodes → edge gateway → FastAPI. Anomaly detection and risk scor
 
 ### 1️⃣ [FastAPI-Tenant — Multi-Tenant AI Workspace SaaS](https://github.com/Abhi2006-cloud/FastAPI-Tenant)
 
-A multi-tenant SaaS backend where every organization's data stays isolated. Users sign in with JWT, get roles like owner, admin or member, invite teammates by email, upload files, and leave an audit trail. Background workers handle email and search indexing, and a React dashboard sits on top. Tests and CI were part of it from the start.
+A multi-tenant SaaS backend where every organization's data stays isolated. Users sign in with JWT, get roles like owner, admin or member, invite teammates by email, upload files, and leave an audit trail. Background workers handle email and search indexing, and a React dashboard sits on top. Tests and CI were part of it from the start. The app is deployed and live.
+
+<a href="https://fast-api-tenant-qdmncqrbh-justas2.vercel.app"><img src="https://img.shields.io/badge/▶%20Try%20the%20Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live demo" /></a>
+<a href="https://github.com/Abhi2006-cloud/FastAPI-Tenant"><img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source" /></a>
 
 **Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Redis · React · TypeScript · Docker
 
